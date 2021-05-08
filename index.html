@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      color: black;
+      margin: 0px;
+      padding: 0px;
+      background: url("img/bg.jpg");
+    }
+
+    .left {
+      display: inline-block;
+      position: absolute;
+      left: 34px;
+      top: 12px;
+    }
+
+    .mid {
+      display: block;
+      width: 43%;
+      margin: 12px auto;
+    }
+
+    .right {
+      display: inline-block;
+      position: absolute;
+      top: 15px;
+      right: 34px;
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+    }
+
+    .navbar li a {
+      background-color: white;
+      border: 2px solid;
+      border-radius: 10px;
+      color: rgb(17, 20, 15);
+      text-decoration: none;
+      padding: 12px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      background-color: gray;
+    }
+
+    .left img {
+      width: 80px;
+    }
+
+    .btn {
+      margin: 0px 9px;
+      padding: 6px;
+      border: 2px solid;
+      border-radius: 10px;
+    }
+
+    .btn:hover {
+      background-color: gray;
+    }
+
+    .container {
+      color: white;
+      border: 2px solid;
+      margin: 200px 200px;
+      padding: 40px;
+      width: 25%;
+      border-radius: 15px;
+    }
+    .container h1 {
+      text-align: center;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 200px;
+      margin: 11px auto;
+      font-size: 20px;
+      border-radius: 10px;
+    }
+
+    .container button{
+      text-align: center;
+      display: block;
+      width: 210px;
+      margin-left: 57px;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="img/logonew.png" alt="" class="src" />
+        <div style="color: gold">Gold's Gym</div>
+      </div>
+
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+      </div>
+
+      <div class="container">
+        <h1>Join today !</h1>
+        <form action="noaction.php">
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="" placeholder="Enter" />
+          </div>
+
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
